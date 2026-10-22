@@ -1,0 +1,591 @@
+{
+ "params": {
+  "tau_m": 15.0,
+  "R": 100.0,
+  "V_theta": 15.0,
+  "c": 0.5,
+  "E_K": -15.0,
+  "dt": 0.002,
+  "tail": 150.0
+ },
+ "rows": [
+  {
+   "kind": "rested",
+   "size": 0.0,
+   "tau_w": null,
+   "window": "post",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 10.65
+  },
+  {
+   "kind": "rested",
+   "size": 0.0,
+   "tau_w": null,
+   "window": "on",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 10.896
+  },
+  {
+   "kind": "threshold",
+   "size": 3.0,
+   "dV_equiv": 3.0,
+   "tau_w": null,
+   "window": "post",
+   "rheobase": "asymptotic",
+   "b": 0.18,
+   "chronaxie": 10.65
+  },
+  {
+   "kind": "threshold",
+   "size": 3.0,
+   "dV_equiv": 3.0,
+   "tau_w": null,
+   "window": "on",
+   "rheobase": "asymptotic",
+   "b": 0.18,
+   "chronaxie": 10.896
+  },
+  {
+   "kind": "threshold",
+   "size": 3.0,
+   "dV_equiv": 3.0,
+   "tau_w": 100.0,
+   "window": "post",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 13.574
+  },
+  {
+   "kind": "threshold",
+   "size": 3.0,
+   "dV_equiv": 3.0,
+   "tau_w": 100.0,
+   "window": "post",
+   "rheobase": "T=100 ms",
+   "b": 0.16130324453115463,
+   "chronaxie": 12.166
+  },
+  {
+   "kind": "threshold",
+   "size": 3.0,
+   "dV_equiv": 3.0,
+   "tau_w": 100.0,
+   "window": "post",
+   "rheobase": "T=300 ms",
+   "b": 0.1515011116862297,
+   "chronaxie": 13.368
+  },
+  {
+   "kind": "threshold",
+   "size": 3.0,
+   "dV_equiv": 3.0,
+   "tau_w": 100.0,
+   "window": "on",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 13.784
+  },
+  {
+   "kind": "threshold",
+   "size": 3.0,
+   "dV_equiv": 3.0,
+   "tau_w": 100.0,
+   "window": "on",
+   "rheobase": "T=100 ms",
+   "b": 0.1613038033246994,
+   "chronaxie": 12.394
+  },
+  {
+   "kind": "threshold",
+   "size": 3.0,
+   "dV_equiv": 3.0,
+   "tau_w": 100.0,
+   "window": "on",
+   "rheobase": "T=300 ms",
+   "b": 0.1515011116862297,
+   "chronaxie": 13.58
+  },
+  {
+   "kind": "threshold",
+   "size": 3.0,
+   "dV_equiv": 3.0,
+   "tau_w": 300.0,
+   "window": "post",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 13.876
+  },
+  {
+   "kind": "threshold",
+   "size": 3.0,
+   "dV_equiv": 3.0,
+   "tau_w": 300.0,
+   "window": "post",
+   "rheobase": "T=100 ms",
+   "b": 0.17175748944282532,
+   "chronaxie": 11.296
+  },
+  {
+   "kind": "threshold",
+   "size": 3.0,
+   "dV_equiv": 3.0,
+   "tau_w": 300.0,
+   "window": "post",
+   "rheobase": "T=300 ms",
+   "b": 0.1610548049211502,
+   "chronaxie": 12.426
+  },
+  {
+   "kind": "threshold",
+   "size": 3.0,
+   "dV_equiv": 3.0,
+   "tau_w": 300.0,
+   "window": "on",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 14.078000000000001
+  },
+  {
+   "kind": "threshold",
+   "size": 3.0,
+   "dV_equiv": 3.0,
+   "tau_w": 300.0,
+   "window": "on",
+   "rheobase": "T=100 ms",
+   "b": 0.17175771296024323,
+   "chronaxie": 11.534
+  },
+  {
+   "kind": "threshold",
+   "size": 3.0,
+   "dV_equiv": 3.0,
+   "tau_w": 300.0,
+   "window": "on",
+   "rheobase": "T=300 ms",
+   "b": 0.1610548049211502,
+   "chronaxie": 12.648
+  },
+  {
+   "kind": "conductance",
+   "size": 0.1,
+   "dV_equiv": 3.0,
+   "tau_w": null,
+   "window": "post",
+   "rheobase": "asymptotic",
+   "b": 0.18,
+   "chronaxie": 9.124
+  },
+  {
+   "kind": "conductance",
+   "size": 0.1,
+   "dV_equiv": 3.0,
+   "tau_w": null,
+   "window": "on",
+   "rheobase": "asymptotic",
+   "b": 0.18,
+   "chronaxie": 9.370000000000001
+  },
+  {
+   "kind": "conductance",
+   "size": 0.1,
+   "dV_equiv": 3.0,
+   "tau_w": 100.0,
+   "window": "post",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 11.982000000000001
+  },
+  {
+   "kind": "conductance",
+   "size": 0.1,
+   "dV_equiv": 3.0,
+   "tau_w": 100.0,
+   "window": "post",
+   "rheobase": "T=100 ms",
+   "b": 0.16305427998304367,
+   "chronaxie": 10.508000000000001
+  },
+  {
+   "kind": "conductance",
+   "size": 0.1,
+   "dV_equiv": 3.0,
+   "tau_w": 100.0,
+   "window": "post",
+   "rheobase": "T=300 ms",
+   "b": 0.15176385641098022,
+   "chronaxie": 11.758000000000001
+  },
+  {
+   "kind": "conductance",
+   "size": 0.1,
+   "dV_equiv": 3.0,
+   "tau_w": 100.0,
+   "window": "on",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 12.184000000000001
+  },
+  {
+   "kind": "conductance",
+   "size": 0.1,
+   "dV_equiv": 3.0,
+   "tau_w": 100.0,
+   "window": "on",
+   "rheobase": "T=100 ms",
+   "b": 0.16305483877658844,
+   "chronaxie": 10.734
+  },
+  {
+   "kind": "conductance",
+   "size": 0.1,
+   "dV_equiv": 3.0,
+   "tau_w": 100.0,
+   "window": "on",
+   "rheobase": "T=300 ms",
+   "b": 0.15176385641098022,
+   "chronaxie": 11.964
+  },
+  {
+   "kind": "conductance",
+   "size": 0.1,
+   "dV_equiv": 3.0,
+   "tau_w": 300.0,
+   "window": "post",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 12.058
+  },
+  {
+   "kind": "conductance",
+   "size": 0.1,
+   "dV_equiv": 3.0,
+   "tau_w": 300.0,
+   "window": "post",
+   "rheobase": "T=100 ms",
+   "b": 0.17269201576709747,
+   "chronaxie": 9.68
+  },
+  {
+   "kind": "conductance",
+   "size": 0.1,
+   "dV_equiv": 3.0,
+   "tau_w": 300.0,
+   "window": "post",
+   "rheobase": "T=300 ms",
+   "b": 0.16161270439624786,
+   "chronaxie": 10.704
+  },
+  {
+   "kind": "conductance",
+   "size": 0.1,
+   "dV_equiv": 3.0,
+   "tau_w": 300.0,
+   "window": "on",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 12.256
+  },
+  {
+   "kind": "conductance",
+   "size": 0.1,
+   "dV_equiv": 3.0,
+   "tau_w": 300.0,
+   "window": "on",
+   "rheobase": "T=100 ms",
+   "b": 0.17269212752580643,
+   "chronaxie": 9.916
+  },
+  {
+   "kind": "conductance",
+   "size": 0.1,
+   "dV_equiv": 3.0,
+   "tau_w": 300.0,
+   "window": "on",
+   "rheobase": "T=300 ms",
+   "b": 0.16161270439624786,
+   "chronaxie": 10.924
+  },
+  {
+   "kind": "threshold",
+   "size": 7.5,
+   "dV_equiv": 7.5,
+   "tau_w": null,
+   "window": "post",
+   "rheobase": "asymptotic",
+   "b": 0.225,
+   "chronaxie": 10.65
+  },
+  {
+   "kind": "threshold",
+   "size": 7.5,
+   "dV_equiv": 7.5,
+   "tau_w": null,
+   "window": "on",
+   "rheobase": "asymptotic",
+   "b": 0.225,
+   "chronaxie": 10.896
+  },
+  {
+   "kind": "threshold",
+   "size": 7.5,
+   "dV_equiv": 7.5,
+   "tau_w": 100.0,
+   "window": "post",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 18.798000000000002
+  },
+  {
+   "kind": "threshold",
+   "size": 7.5,
+   "dV_equiv": 7.5,
+   "tau_w": 100.0,
+   "window": "post",
+   "rheobase": "T=100 ms",
+   "b": 0.17795931547880173,
+   "chronaxie": 14.216000000000001
+  },
+  {
+   "kind": "threshold",
+   "size": 7.5,
+   "dV_equiv": 7.5,
+   "tau_w": 100.0,
+   "window": "post",
+   "rheobase": "T=300 ms",
+   "b": 0.15375271439552307,
+   "chronaxie": 18.006
+  },
+  {
+   "kind": "threshold",
+   "size": 7.5,
+   "dV_equiv": 7.5,
+   "tau_w": 100.0,
+   "window": "on",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 18.958000000000002
+  },
+  {
+   "kind": "threshold",
+   "size": 7.5,
+   "dV_equiv": 7.5,
+   "tau_w": 100.0,
+   "window": "on",
+   "rheobase": "T=100 ms",
+   "b": 0.17796289175748825,
+   "chronaxie": 14.424
+  },
+  {
+   "kind": "threshold",
+   "size": 7.5,
+   "dV_equiv": 7.5,
+   "tau_w": 100.0,
+   "window": "on",
+   "rheobase": "T=300 ms",
+   "b": 0.15375271439552307,
+   "chronaxie": 18.172
+  },
+  {
+   "kind": "threshold",
+   "size": 7.5,
+   "dV_equiv": 7.5,
+   "tau_w": 300.0,
+   "window": "post",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 20.226
+  },
+  {
+   "kind": "threshold",
+   "size": 7.5,
+   "dV_equiv": 7.5,
+   "tau_w": 300.0,
+   "window": "post",
+   "rheobase": "T=100 ms",
+   "b": 0.20409654825925827,
+   "chronaxie": 12.054
+  },
+  {
+   "kind": "threshold",
+   "size": 7.5,
+   "dV_equiv": 7.5,
+   "tau_w": 300.0,
+   "window": "post",
+   "rheobase": "T=300 ms",
+   "b": 0.17763666808605194,
+   "chronaxie": 14.952
+  },
+  {
+   "kind": "threshold",
+   "size": 7.5,
+   "dV_equiv": 7.5,
+   "tau_w": 300.0,
+   "window": "on",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 20.362000000000002
+  },
+  {
+   "kind": "threshold",
+   "size": 7.5,
+   "dV_equiv": 7.5,
+   "tau_w": 300.0,
+   "window": "on",
+   "rheobase": "T=100 ms",
+   "b": 0.2040976658463478,
+   "chronaxie": 12.282
+  },
+  {
+   "kind": "threshold",
+   "size": 7.5,
+   "dV_equiv": 7.5,
+   "tau_w": 300.0,
+   "window": "on",
+   "rheobase": "T=300 ms",
+   "b": 0.17763689160346985,
+   "chronaxie": 15.142
+  },
+  {
+   "kind": "conductance",
+   "size": 0.25,
+   "dV_equiv": 7.5,
+   "tau_w": null,
+   "window": "post",
+   "rheobase": "asymptotic",
+   "b": 0.225,
+   "chronaxie": 7.526
+  },
+  {
+   "kind": "conductance",
+   "size": 0.25,
+   "dV_equiv": 7.5,
+   "tau_w": null,
+   "window": "on",
+   "rheobase": "asymptotic",
+   "b": 0.225,
+   "chronaxie": 7.772
+  },
+  {
+   "kind": "conductance",
+   "size": 0.25,
+   "dV_equiv": 7.5,
+   "tau_w": 100.0,
+   "window": "post",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 14.790000000000001
+  },
+  {
+   "kind": "conductance",
+   "size": 0.25,
+   "dV_equiv": 7.5,
+   "tau_w": 100.0,
+   "window": "post",
+   "rheobase": "T=100 ms",
+   "b": 0.18204666674137115,
+   "chronaxie": 10.366
+  },
+  {
+   "kind": "conductance",
+   "size": 0.25,
+   "dV_equiv": 7.5,
+   "tau_w": 100.0,
+   "window": "post",
+   "rheobase": "T=300 ms",
+   "b": 0.15440136194229126,
+   "chronaxie": 13.956
+  },
+  {
+   "kind": "conductance",
+   "size": 0.25,
+   "dV_equiv": 7.5,
+   "tau_w": 100.0,
+   "window": "on",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 14.928
+  },
+  {
+   "kind": "conductance",
+   "size": 0.25,
+   "dV_equiv": 7.5,
+   "tau_w": 100.0,
+   "window": "on",
+   "rheobase": "T=100 ms",
+   "b": 0.18204990774393082,
+   "chronaxie": 10.564
+  },
+  {
+   "kind": "conductance",
+   "size": 0.25,
+   "dV_equiv": 7.5,
+   "tau_w": 100.0,
+   "window": "on",
+   "rheobase": "T=300 ms",
+   "b": 0.1544014737010002,
+   "chronaxie": 14.104000000000001
+  },
+  {
+   "kind": "conductance",
+   "size": 0.25,
+   "dV_equiv": 7.5,
+   "tau_w": 300.0,
+   "window": "post",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 15.182
+  },
+  {
+   "kind": "conductance",
+   "size": 0.25,
+   "dV_equiv": 7.5,
+   "tau_w": 300.0,
+   "window": "post",
+   "rheobase": "T=100 ms",
+   "b": 0.20622823387384415,
+   "chronaxie": 8.56
+  },
+  {
+   "kind": "conductance",
+   "size": 0.25,
+   "dV_equiv": 7.5,
+   "tau_w": 300.0,
+   "window": "post",
+   "rheobase": "T=300 ms",
+   "b": 0.17895106226205826,
+   "chronaxie": 10.804
+  },
+  {
+   "kind": "conductance",
+   "size": 0.25,
+   "dV_equiv": 7.5,
+   "tau_w": 300.0,
+   "window": "on",
+   "rheobase": "asymptotic",
+   "b": 0.15,
+   "chronaxie": 15.31
+  },
+  {
+   "kind": "conductance",
+   "size": 0.25,
+   "dV_equiv": 7.5,
+   "tau_w": 300.0,
+   "window": "on",
+   "rheobase": "T=100 ms",
+   "b": 0.20622890442609787,
+   "chronaxie": 8.786
+  },
+  {
+   "kind": "conductance",
+   "size": 0.25,
+   "dV_equiv": 7.5,
+   "tau_w": 300.0,
+   "window": "on",
+   "rheobase": "T=300 ms",
+   "b": 0.17895128577947617,
+   "chronaxie": 10.99
+  }
+ ]
+}
