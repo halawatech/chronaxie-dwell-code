@@ -8,7 +8,9 @@ by fig7_empirical.py and figS5_realistic_taum.py, namely:
   - plt  (matplotlib.pyplot)
   - colour constants C_BLUE, C_RED, C_GREEN, C_PLUM, C_AMBER, C_GRAY
 Colours are chosen to match the semantic names; exact hexes may differ
-from the original style sheet.
+from the original style sheet. The file sets appearance only and computes
+nothing; every figure in the submitted manuscript was generated with this
+version.
 """
 import numpy as np
 import matplotlib

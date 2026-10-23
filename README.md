@@ -24,7 +24,7 @@ files in this repository are the outputs used for the submitted manuscript.
 | File | Purpose |
 |---|---|
 | `msmodels.py` | Shared models: Hodgkin–Huxley (per-gNa resting equilibrium, resting chord time constant, vectorised first-spike and threshold search), persistence-gated LIF (`lif_gate`), vectorised first-spike simulator (`first_spike_batch`), resonator impedance, OU noise, d50 estimation |
-| `figstyle.py` | Shared Matplotlib style and colours (reconstructed; original not preserved) |
+| `figstyle.py` | Shared Matplotlib style and colours, imported by every figure script. It sets appearance only (fonts, colours, line widths) and re-exports NumPy and Matplotlib; it computes nothing. It was rewritten because the original file was lost, and every submitted figure was generated with this version. |
 
 ## Script → figure map
 
@@ -47,6 +47,8 @@ Script numbers do **not** follow manuscript figure numbers.
 | `freqresp_sweep.py` | Table S7 (gate + SFA frequency response over c and tau_w; direct sampling of each predicted centre and its neighbours) | `_out_freqresp_sweep.json` | ~40 min |
 | `adaptation_chronaxie.py` | Section 5.1, Prediction P1 and Supplementary Methods (chronaxie after threshold or conductance adaptation that recovers during the test; asymptotic vs operational rheobase) | `_out_adaptation_chronaxie.json` | ~30 s |
 | `hh_temperature.py` | Section 3.2 temperature paragraph, Table S8 and Supplementary Methods (HH chronaxie at 6.3–37 °C, two time steps, all-or-none check; full-curve fits of the reduction at 6.3, 15 and 20 °C) | `_out_hh_temperature.json` | ~45 min |
+
+Runtimes are approximate, measured on an Intel Core i7-13700F (16 cores, 24 threads) with 32 GB RAM, one Python process per script.
 
 Run each script from this folder, e.g. `python fig3_duration.py`. Each writes
 its figure (PDF and PNG) and, where applicable, a JSON file with the numbers
@@ -81,6 +83,10 @@ MIT License (see `LICENSE`).
 
 ## Citation
 
-If you use this code, please cite the accompanying article, "Separating
-membrane charging from spike-initiation dwell in chronaxie: a
-persistence-gated neuron model" (submitted to Biological Cybernetics).
+If you use this code, please cite the accompanying article:
+
+Separating membrane charging from spike-initiation dwell in chronaxie: a
+persistence-gated neuron model. Submitted to Biological Cybernetics.
+
+This section will be updated with the journal reference and the Zenodo DOI
+once available.
