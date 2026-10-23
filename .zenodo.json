@@ -1,0 +1,26 @@
+{
+  "title": "Simulation code for: Separating Membrane Charging from Spike-Initiation Dwell in Chronaxie: A Persistence-Gated Neuron Model",
+  "description": "Python simulation code and numerical outputs for the article \"Separating Membrane Charging from Spike-Initiation Dwell in Chronaxie: A Persistence-Gated Neuron Model\" (submitted to Biological Cybernetics). Includes the Hodgkin-Huxley strength-duration analysis, the persistence-gated leaky integrate-and-fire model, parameter-recovery tests, frequency-response and resonance simulations, and one script per figure that regenerates it from scratch.",
+  "upload_type": "software",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Halawa, Islam",
+      "affiliation": "Medical Research Institute, National Research Center, Egypt",
+      "orcid": "0000-0003-4040-7414"
+    },
+    {
+      "name": "Hafez, Ahmad",
+      "affiliation": "Technical University of Munich",
+      "orcid": "0000-0002-3301-0008"
+    }
+  ],
+  "keywords": [
+    "chronaxie",
+    "strength-duration curve",
+    "spike initiation",
+    "integrate-and-fire model",
+    "Hodgkin-Huxley model",
+    "computational neuroscience"
+  ]
+}
