@@ -88,5 +88,6 @@ If you use this code, please cite the accompanying article:
 Separating membrane charging from spike-initiation dwell in chronaxie: a
 persistence-gated neuron model. Submitted to Biological Cybernetics.
 
-This section will be updated with the journal reference and the Zenodo DOI
-once available.
+The code as submitted (v1.0.0) is archived on Zenodo:
+https://doi.org/10.5281/zenodo.23599602. This section will be updated with
+the journal reference once available.
