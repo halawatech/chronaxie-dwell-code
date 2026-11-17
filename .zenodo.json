@@ -1,6 +1,6 @@
 {
-  "title": "Simulation code for: Separating Membrane Charging from Spike-Initiation Dwell in Chronaxie: A Persistence-Gated Neuron Model",
-  "description": "Python simulation code and numerical outputs for the article \"Separating Membrane Charging from Spike-Initiation Dwell in Chronaxie: A Persistence-Gated Neuron Model\" (submitted to Biological Cybernetics). Includes the Hodgkin-Huxley strength-duration analysis, the persistence-gated leaky integrate-and-fire model, parameter-recovery tests, frequency-response and resonance simulations, and one script per figure that regenerates it from scratch.",
+  "title": "Simulation code for: How Much of Chronaxie Is Spike-Initiation Dwell? Closed Forms, a Hodgkin-Huxley Test and the Limits of Strength-Duration Measurements",
+  "description": "Python simulation code and numerical outputs for the article \"How Much of Chronaxie Is Spike-Initiation Dwell? Closed Forms, a Hodgkin-Huxley Test and the Limits of Strength-Duration Measurements\" (manuscript submitted for publication). Includes the persistence-gated leaky integrate-and-fire model with both response windows, the Hodgkin-Huxley strength-duration analysis with temperature scaling, parameter-recovery tests, time-step convergence checks, and one script per figure that regenerates it from scratch. Scripts for analyses from an earlier, longer version of the manuscript (frequency response, resonance, adaptation) are also included.",
   "upload_type": "software",
   "license": "mit",
   "creators": [
@@ -21,6 +21,7 @@
     "spike initiation",
     "integrate-and-fire model",
     "Hodgkin-Huxley model",
+    "parameter identifiability",
     "computational neuroscience"
   ]
 }
